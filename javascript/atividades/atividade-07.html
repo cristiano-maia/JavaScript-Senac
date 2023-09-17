@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 07 JavaScript</title>
+    <script>
+        
+        let cor_usuario = prompt('Digite uma cor em inglês:','');
+        const cor = 'yellow';
+
+        if(cor_usuario == cor){
+            document.write('<h2>Muito bem, <u><b>'+ cor_usuario + '</b></u> é uma linda cor!</h2>');
+            document.bgColor=cor_usuario;
+        }else{
+            document.write('<h3>Lamento, <u><b>'+ cor_usuario + '</b></u> não é uma cor legal!</h3>');
+            document.bgColor=cor_usuario;
+        }
+
+    </script> 
+</head>
+<body>
+    
+</body>
+</html>
